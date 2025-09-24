@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // raíz del proyecto
+    "paths": {
+      "@models/*": ["./src/db/models/*"],
+      "@db/*": ["./src/db/*"],
+      "@sockets/*": ["./src/sockets/*"],
+      "@users/*": ["./src/users/*"]
+    },
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
